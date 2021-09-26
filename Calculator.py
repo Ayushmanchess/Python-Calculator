@@ -47,25 +47,23 @@ time.sleep(0.5)
 print("")
 
 #Generates usable data for the operation and gives the answer
-
-while True:
-        if(operation=="MULTIPLICATION" or "Multiplication" or "multiplication"):
+if(operation=="MULTIPLICATION" or "Multiplication" or "multiplication"):
             
-            operation = "multiplication"
-            print(first_num,  "×",  last_num,  "=", multiply(first_num, last_num))
-        elif(operation=="DIVISION" or "Division" or "division"):
+    operation = "multiplication"
+    print(first_num,  "×",  last_num,  "=", multiply(first_num, last_num))
+elif(operation=="DIVISION" or "Division" or "division"):
         
-            operation = "division"    
-            print(first_num,  "/",  last_num,  "=", divide(first_num, last_num))
-        elif(operation=="ADDITION" or "Addition" or "addition"):
+     operation = "division"    
+     print(first_num,  "/",  last_num,  "=", divide(first_num, last_num))
+elif(operation=="ADDITION" or "Addition" or "addition"):
         
-            operation = "addition"      
-            print(first_num,  "+",  last_num,  "=", add(first_num, last_num))
-        elif(operation=="SUBTRACTION" or "Subtraction" or "subtraction"):
+     operation = "addition"      
+     print(first_num,  "+",  last_num,  "=", add(first_num, last_num))
+elif(operation=="SUBTRACTION" or "Subtraction" or "subtraction"):
             
-            operation = "subtraction"  
-            print(first_num,  "-",  last_num,  "=", subtract(first_num, last_num))
- break           
+     operation = "subtraction"  
+     print(first_num,  "-",  last_num,  "=", subtract(first_num, last_num))
+           
 
 #Last conversation   
 print("")
