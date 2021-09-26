@@ -65,6 +65,7 @@ while True:
             
             operation = "subtraction"  
             print(first_num,  "-",  last_num,  "=", subtract(first_num, last_num))
+ break           
 
 #Last conversation   
 print("")
